@@ -6,11 +6,11 @@ import java.util.Collection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;;
 
 @RestController
 public class ApiController {
@@ -33,18 +33,19 @@ public class ApiController {
         }
     }
 
-    @GetMapping(ENDPOINT_URL + "get_single")
+    @RequestMapping("**")
+    @ResponseStatus(HttpStatus.I_AM_A_TEAPOT)
+    public String catchall(){
+        return "I am a teapot.";
+    }
+
+    @RequestMapping(ENDPOINT_URL + "get_single")
     public Island getIsland(@RequestParam(name="name") String name) {
         name = name.toLowerCase().replace(" ", "").replace("-", "").replace("_", "");
         if(service.islandExists(name)) {
             return service.getIsland(name);
         }
         return null;
-    }
-
-    @PostMapping(ENDPOINT_URL + "get_single")
-    public Island postIsland(@RequestParam(name="name") String name) {
-        return getIsland(name);
     }
 
     @RequestMapping(ENDPOINT_URL + "get_all")

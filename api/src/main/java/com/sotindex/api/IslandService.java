@@ -8,8 +8,23 @@ import java.util.HashMap;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class IslandService {
-    private final HashMap<String, Island> map = new HashMap<String, Island>();
+    private HashMap<String, Island> map = new HashMap<String, Island>();
     private final ObjectMapper mapper = new ObjectMapper();
+    
+    //@Value("${islandDataPath}")
+    private String dataDir = "api/src/main/resources/static/islands";
+
+
+    private static IslandService instance;
+
+    public static IslandService getInstance() {
+        if(instance == null) {
+            instance = new IslandService();
+        }
+        return instance;
+    }
+
+    private IslandService(){}
 
 
     /**
@@ -35,12 +50,14 @@ public class IslandService {
     }
 
     /**
-     * Parse the JSON files in the given directory into {@code Island} objects and insert these objects into the map
+     * Parse the JSON files in the given directory into {@code Island} objects and insert these objects into the a map, replacing the old map entirely. 
+     * If parsing fails, the new map does not overwrite the old map (the values are not changed at all).
      * @param dataDir The directory which contains the JSON files.
      * @return {@code false} if an exception occured, {@code true} otherwise
      */
     public boolean parseJSONFromDisk(File dataDir) {
         Island island;
+        HashMap<String, Island> newMap = new HashMap<String, Island>();
 
         for (File f : dataDir.listFiles()) {
             if(isJSONFile(f)) {
@@ -50,11 +67,19 @@ public class IslandService {
                     e.printStackTrace();
                     return false;
                 }
-                map.put(island.name().toLowerCase().replace(" ", ""), island);
+                newMap.put(island.name().toLowerCase().replace(" ", ""), island);
             }
         }
+        map = newMap;
         return true;
 
+    }
+
+    /**
+     * Parse JSON from the default path specified in the properties file. See {@code parseJSONFromDisk(File)} for more details
+     */
+    public boolean parseJSONFromDisk() {
+        return parseJSONFromDisk(new File(dataDir));
     }
 
     private boolean isJSONFile(File f) {

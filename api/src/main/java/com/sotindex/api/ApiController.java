@@ -1,11 +1,9 @@
 package com.sotindex.api;
 
-import java.io.File;
 import java.util.Collection;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,16 +13,14 @@ import org.springframework.web.bind.annotation.RestController;;
 @RestController
 public class ApiController {
 
-    //@Value("${islandDataPath}")
-    private String dataDir = "api/src/main/resources/static/islands";
 
     private final String ENDPOINT_URL = "/api/";
-    private final IslandService service = new IslandService();;
+    private final IslandService service = IslandService.getInstance();
 
     private final Logger logger = LoggerFactory.getLogger(ApiController.class);
 
     public ApiController() {
-        if(!service.parseJSONFromDisk(new File(dataDir))) {
+        if(!service.parseJSONFromDisk()) {
             logger.error("An exception occurred while parsing JSON from the disk. Server exiting...");
             ApiApplication.exitApplication(1);
             

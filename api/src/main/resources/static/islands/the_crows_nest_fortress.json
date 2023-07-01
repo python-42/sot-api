@@ -1,0 +1,7 @@
+
+{
+"name": "The Crow's Nest Fortress",
+"coords": "O-17",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/the_crows_nest_fortress.png"
+}

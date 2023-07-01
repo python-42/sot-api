@@ -1,0 +1,7 @@
+
+{
+"name": "Shark Fin Camp",
+"coords": "P-5",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/shark_fin_camp.png"
+}

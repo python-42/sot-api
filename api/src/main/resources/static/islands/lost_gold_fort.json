@@ -1,0 +1,7 @@
+
+{
+"name": "Lost Gold Fort",
+"coords": "H-17",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/lost_gold_fort.png"
+}

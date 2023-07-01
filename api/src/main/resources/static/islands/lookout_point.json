@@ -1,0 +1,7 @@
+
+{
+"name": "Lookout Point",
+"coords": "I-20",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/lookout_point.png"
+}

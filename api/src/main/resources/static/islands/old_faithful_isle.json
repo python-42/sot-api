@@ -1,6 +1,7 @@
-{
-    "name" : "Old Faithful Isle",
-    "imagePath" : "argle bargle",
-    "coords" : "Q-4"
 
+{
+"name": "Old Faithful Isle",
+"coords": "M-4",
+"type": "Large Island",
+"imagePath" : "api/src/main/resources/static/images/old_faithful_isle.png"
 }

@@ -1,0 +1,7 @@
+
+{
+"name": "Skull Keep",
+"coords": "P-9",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/skull_keep.png"
+}

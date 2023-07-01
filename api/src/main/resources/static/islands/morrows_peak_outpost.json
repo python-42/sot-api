@@ -1,0 +1,7 @@
+
+{
+"name": "Morrow's Peak Outpost",
+"coords": "V-17",
+"type": "Outpost",
+"imagePath" : "api/src/main/resources/static/images/morrows_peak_outpost.png"
+}

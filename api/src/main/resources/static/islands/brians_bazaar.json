@@ -1,0 +1,7 @@
+
+{
+"name": "Brian's Bazaar",
+"coords": "Y-12",
+"type": "Seapost",
+"imagePath" : "api/src/main/resources/static/images/brians_bazaar.png"
+}

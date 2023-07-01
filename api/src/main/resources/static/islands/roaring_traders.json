@@ -1,0 +1,7 @@
+
+{
+"name": "Roaring Traders",
+"coords": "U-20",
+"type": "Seapost",
+"imagePath" : "api/src/main/resources/static/images/roaring_traders.png"
+}

@@ -1,0 +1,7 @@
+
+{
+"name": "Sanctuary Outpost",
+"coords": "F-7",
+"type": "Outpost",
+"imagePath" : "api/src/main/resources/static/images/sanctuary_outpost.png"
+}

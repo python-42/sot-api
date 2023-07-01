@@ -1,0 +1,7 @@
+
+{
+"name": "Cinder Islet",
+"coords": "U-14",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/cinder_islet.png"
+}

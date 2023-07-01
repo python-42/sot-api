@@ -1,0 +1,7 @@
+
+{
+"name": "Lonely Isle",
+"coords": "G-8",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/lonely_isle.png"
+}

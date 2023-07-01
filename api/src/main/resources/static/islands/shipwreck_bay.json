@@ -1,0 +1,7 @@
+
+{
+"name": "Shipwreck Bay",
+"coords": "M-10",
+"type": "Large Island",
+"imagePath" : "api/src/main/resources/static/images/shipwreck_bay.png"
+}

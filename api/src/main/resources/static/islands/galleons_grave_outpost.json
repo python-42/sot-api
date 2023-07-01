@@ -1,0 +1,7 @@
+
+{
+"name": "Galleon's Grave Outpost",
+"coords": "R-8",
+"type": "Outpost",
+"imagePath" : "api/src/main/resources/static/images/galleons_grave_outpost.png"
+}

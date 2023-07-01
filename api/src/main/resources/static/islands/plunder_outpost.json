@@ -1,0 +1,7 @@
+
+{
+"name": "Plunder Outpost",
+"coords": "J-18",
+"type": "Outpost",
+"imagePath" : "api/src/main/resources/static/images/plunder_outpost.png"
+}

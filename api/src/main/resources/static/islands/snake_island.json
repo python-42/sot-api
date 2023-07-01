@@ -1,0 +1,7 @@
+
+{
+"name": "Snake Island",
+"coords": "K-16",
+"type": "Large Island",
+"imagePath" : "api/src/main/resources/static/images/snake_island.png"
+}

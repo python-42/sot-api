@@ -1,0 +1,7 @@
+
+{
+"name": "Golden Sands Outpost",
+"coords": "D-10",
+"type": "Outpost",
+"imagePath" : "api/src/main/resources/static/images/golden_sands_outpost.png"
+}

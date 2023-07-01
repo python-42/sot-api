@@ -1,0 +1,7 @@
+
+{
+"name": "Chicken Isle",
+"coords": "I-16",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/chicken_isle.png"
+}

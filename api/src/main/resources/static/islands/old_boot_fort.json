@@ -1,0 +1,7 @@
+
+{
+"name": "Old Boot Fort",
+"coords": "L-14",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/old_boot_fort.png"
+}

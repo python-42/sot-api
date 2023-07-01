@@ -1,0 +1,6 @@
+{
+"name": "Ancient Spires Outpost",
+"coords": "Q-17",
+"type": "Outpost",
+"imagePath" : "api/src/main/resources/static/images/ancient_spires_outpost.png"
+}

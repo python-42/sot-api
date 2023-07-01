@@ -1,0 +1,7 @@
+
+{
+"name": "The North Star Seapost",
+"coords": "H-10",
+"type": "Seapost",
+"imagePath" : "api/src/main/resources/static/images/the_north_star_seapost.png"
+}

@@ -1,0 +1,7 @@
+
+{
+"name": "Three Paces East Seapost",
+"coords": "S-9",
+"type": "Seapost",
+"imagePath" : "api/src/main/resources/static/images/three_paces_east_seapost.png"
+}

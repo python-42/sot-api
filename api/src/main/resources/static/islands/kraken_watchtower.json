@@ -1,0 +1,7 @@
+
+{
+"name": "Kraken Watchtower",
+"coords": "L-6",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/kraken_watchtower.png"
+}

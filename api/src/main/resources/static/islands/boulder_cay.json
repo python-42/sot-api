@@ -1,0 +1,7 @@
+
+{
+"name": "Boulder Cay",
+"coords": "G-5",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/boulder_cay.png"
+}

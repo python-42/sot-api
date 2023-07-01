@@ -1,0 +1,7 @@
+
+{
+"name": "Sailor's Knot Stronghold",
+"coords": "E-14",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/sailors_knot_stronghold.png"
+}

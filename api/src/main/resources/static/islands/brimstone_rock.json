@@ -1,0 +1,7 @@
+
+{
+"name": "Brimstone Rock",
+"coords": "X-18",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/brimstone_rock.png"
+}

@@ -1,0 +1,7 @@
+
+{
+"name": "Keel Haul Fort",
+"coords": "C-6",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/keel_haul_fort.png"
+}

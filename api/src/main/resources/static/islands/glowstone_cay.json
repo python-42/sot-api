@@ -1,0 +1,7 @@
+
+{
+"name": "Glowstone Cay",
+"coords": "Z-18",
+"type": "Small Island",
+"imagePath" : "api/src/main/resources/static/images/glowstone_cay.png"
+}

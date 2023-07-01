@@ -1,0 +1,7 @@
+
+{
+"name": "Molten Sands Fortress",
+"coords": "Z-11",
+"type": "Fortress",
+"imagePath" : "api/src/main/resources/static/images/molten_sands_fortress.png"
+}

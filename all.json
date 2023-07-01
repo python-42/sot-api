@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Ancient Spires Outpost",
+    "coords": "Q-17",
+    "type": "Outpost"
+  },
+  {
+    "name": "Dagger Tooth Outpost",
+    "coords": "M-8",
+    "type": "Outpost"
+  },
+  {
+    "name": "Galleon's Grave Outpost",
+    "coords": "R-8",
+    "type": "Outpost"
+  },
+  {
+    "name": "Golden Sands Outpost",
+    "coords": "D-10",
+    "type": "Outpost"
+  },
+  {
+    "name": "Morrow's Peak Outpost",
+    "coords": "V-17",
+    "type": "Outpost"
+  },
+  {
+    "name": "Plunder Outpost",
+    "coords": "J-18",
+    "type": "Outpost"
+  },
+  {
+    "name": "Sanctuary Outpost",
+    "coords": "F-7",
+    "type": "Outpost"
+  },
+  {
+    "name": "Brian's Bazaar",
+    "coords": "Y-12",
+    "type": "Seapost"
+  },
+  {
+    "name": "Roaring Traders",
+    "coords": "U-20",
+    "type": "Seapost"
+  },
+  {
+    "name": "Stephen's Spoils",
+    "coords": "L-15",
+    "type": "Seapost"
+  },
+  {
+    "name": "The Finest Trading Post",
+    "coords": "F-17",
+    "type": "Seapost"
+  },
+  {
+    "name": "The North Star Seapost",
+    "coords": "H-10",
+    "type": "Seapost"
+  },
+  {
+    "name": "The Spoils of Plenty Store",
+    "coords": "B-7",
+    "type": "Seapost"
+  },
+  {
+    "name": "The Wild Treasures Store",
+    "coords": "O-4",
+    "type": "Seapost"
+  },
+  {
+    "name": "Three Paces East Seapost",
+    "coords": "S-9",
+    "type": "Seapost"
+  },
+  {
+    "name": "Barnacle Cay",
+    "coords": "O-15",
+    "type": "Small Island"
+  },
+  {
+    "name": "Black Sand Atoll",
+    "coords": "O-3",
+    "type": "Small Island"
+  },
+  {
+    "name": "Black Water Enclave",
+    "coords": "R-5",
+    "type": "Small Island"
+  },
+  {
+    "name": "Blind Man's Lagoon",
+    "coords": "N-6",
+    "type": "Small Island"
+  },
+  {
+    "name": "Booty Isle",
+    "coords": "K-20",
+    "type": "Small Island"
+  },
+  {
+    "name": "Boulder Cay",
+    "coords": "G-5",
+    "type": "Small Island"
+  },
+  {
+    "name": "Brimstone Rock",
+    "coords": "X-18",
+    "type": "Small Island"
+  },
+  {
+    "name": "Castaway Isle",
+    "coords": "K-14",
+    "type": "Small Island"
+  },
+  {
+    "name": "Chicken Isle",
+    "coords": "I-16",
+    "type": "Small Island"
+  },
+  {
+    "name": "Cinder Islet",
+    "coords": "U-14",
+    "type": "Small Island"
+  },
+  {
+    "name": "Cursewater Shores",
+    "coords": "Y-13",
+    "type": "Small Island"
+  },
+  {
+    "name": "Cutlass Cay",
+    "coords": "M-18",
+    "type": "Small Island"
+  },
+  {
+    "name": "Flame's End",
+    "coords": "V-19",
+    "type": "Small Island"
+  },
+  {
+    "name": "Fools Lagoon",
+    "coords": "I-14",
+    "type": "Small Island"
+  },
+  {
+    "name": "Glowstone Cay",
+    "coords": "Z-18",
+    "type": "Small Island"
+  },
+  {
+    "name": "Isle of Last Words",
+    "coords": "O-9",
+    "type": "Small Island"
+  },
+  {
+    "name": "Lagoon of Whispers",
+    "coords": "D-12",
+    "type": "Small Island"
+  },
+  {
+    "name": "Liar's Backbone",
+    "coords": "S-11",
+    "type": "Small Island"
+  },
+  {
+    "name": "Lonely Isle",
+    "coords": "G-8",
+    "type": "Small Island"
+  },
+  {
+    "name": "Lookout Point",
+    "coords": "I-20",
+    "type": "Small Island"
+  },
+  {
+    "name": "Magma's Tide",
+    "coords": "Y-20",
+    "type": "Small Island"
+  },
+  {
+    "name": "Mutineer Rock",
+    "coords": "N-19",
+    "type": "Small Island"
+  },
+  {
+    "name": "Old Salts Atoll",
+    "coords": "F-18",
+    "type": "Small Island"
+  },
+  {
+    "name": "Paradise Spring",
+    "coords": "L-17",
+    "type": "Small Island"
+  },
+  {
+    "name": "Picaroon Palms",
+    "coords": "I-4",
+    "type": "Small Island"
+  },
+  {
+    "name": "Plunderer's Plight",
+    "coords": "Q-6",
+    "type": "Small Island"
+  },
+  {
+    "name": "Rapier Cay",
+    "coords": "D-8",
+    "type": "Small Island"
+  },
+  {
+    "name": "Roaring Sands",
+    "coords": "U-21",
+    "type": "Small Island"
+  },
+  {
+    "name": "Rum Runner Isle",
+    "coords": "H-9",
+    "type": "Small Island"
+  },
+  {
+    "name": "Salty Sands",
+    "coords": "G-3",
+    "type": "Small Island"
+  },
+  {
+    "name": "Sandy Shallows",
+    "coords": "D-5",
+    "type": "Small Island"
+  },
+  {
+    "name": "Schored Pass",
+    "coords": "X-11",
+    "type": "Small Island"
+  },
+  {
+    "name": "Scurvy Isley",
+    "coords": "K-4",
+    "type": "Small Island"
+  },
+  {
+    "name": "Sea Dog's Rest",
+    "coords": "C-11",
+    "type": "Small Island"
+  },
+  {
+    "name": "Shark Tooth Key",
+    "coords": "P-13",
+    "type": "Small Island"
+  },
+  {
+    "name": "Shiver Retreat",
+    "coords": "Q-11",
+    "type": "Small Island"
+  },
+  {
+    "name": "The Forsaken Brink",
+    "coords": "U-16",
+    "type": "Small Island"
+  },
+  {
+    "name": "Tribute Peak",
+    "coords": "Y-2",
+    "type": "Massive Island"
+  },
+  {
+    "name": "Tri-Rock Isle",
+    "coords": "R-10",
+    "type": "Small Island"
+  },
+  {
+    "name": "Twin Groves",
+    "coords": "H-11",
+    "type": "Small Island"
+  },
+  {
+    "name": "Ashen Reaches",
+    "coords": "V-23",
+    "type": "Large Island"
+  },
+  {
+    "name": "Cannon Cove",
+    "coords": "G-10",
+    "type": "Large Island"
+  },
+  {
+    "name": "Crescent Isle",
+    "coords": "B-9",
+    "type": "Large Island"
+  },
+  {
+    "name": "Crook's Hollow",
+    "coords": "M-16",
+    "type": "Large Island"
+  },
+  {
+    "name": "Devil's Ridge",
+    "coords": "P-19",
+    "type": "Large Island"
+  },
+  {
+    "name": "Discovery Ridge",
+    "coords": "E-17",
+    "type": "Large Island"
+  },
+  {
+    "name": "Fetcher's Rest",
+    "coords": "V-12",
+    "type": "Large Island"
+  },
+  {
+    "name": "Flintlock Peninsula",
+    "coords": "W-14",
+    "type": "Large Island"
+  },
+  {
+    "name": "Kraken's Fall",
+    "coords": "R-12",
+    "type": "Large Island"
+  },
+  {
+    "name": "Lone Cove",
+    "coords": "H-6",
+    "type": "Large Island"
+  },
+  {
+    "name": "Marauder's Arch",
+    "coords": "Q-3",
+    "type": "Large Island"
+  },
+  {
+    "name": "Mermaid's Hideaway",
+    "coords": "B-13",
+    "type": "Large Island"
+  },
+  {
+    "name": "Old Faithful Isle",
+    "coords": "M-4",
+    "type": "Large Island"
+  },
+  {
+    "name": "Plunder Valley",
+    "coords": "G-16",
+    "type": "Large Island"
+  },
+  {
+    "name": "Ruby's Fall",
+    "coords": "Y-16",
+    "type": "Large Island"
+  },
+  {
+    "name": "Sailor's Bounty",
+    "coords": "C-4",
+    "type": "Large Island"
+  },
+  {
+    "name": "Shark Bait Cove",
+    "coords": "H-19",
+    "type": "Large Island"
+  },
+  {
+    "name": "Shipwreck Bay",
+    "coords": "M-10",
+    "type": "Large Island"
+  },
+  {
+    "name": "Smugglers' Bay",
+    "coords": "F-3",
+    "type": "Large Island"
+  },
+  {
+    "name": "Snake Island",
+    "coords": "K-16",
+    "type": "Large Island"
+  },
+  {
+    "name": "The Crooked Masts",
+    "coords": "O-11",
+    "type": "Large Island"
+  },
+  {
+    "name": "The Devil's Thirst",
+    "coords": "W-21",
+    "type": "Large Island"
+  },
+  {
+    "name": "The Sunken Grove",
+    "coords": "P-7",
+    "type": "Large Island"
+  },
+  {
+    "name": "Thieves' Haven",
+    "coords": "L-20",
+    "type": "Large Island"
+  },
+  {
+    "name": "Wanderers Refuge",
+    "coords": "F-12",
+    "type": "Large Island"
+  },
+  {
+    "name": "Hidden Spring Keep",
+    "coords": "I-8",
+    "type": "Fortress"
+  },
+  {
+    "name": "Keel Haul Fort",
+    "coords": "C-6",
+    "type": "Fortress"
+  },
+  {
+    "name": "Kraken Watchtower",
+    "coords": "L-6",
+    "type": "Fortress"
+  },
+  {
+    "name": "Lost Gold Fort",
+    "coords": "H-17",
+    "type": "Fortress"
+  },
+  {
+    "name": "Molten Sands Fortress",
+    "coords": "Z-11",
+    "type": "Fortress"
+  },
+  {
+    "name": "Old Boot Fort",
+    "coords": "L-14",
+    "type": "Fortress"
+  },
+  {
+    "name": "Sailor's Knot Stronghold",
+    "coords": "E-14",
+    "type": "Fortress"
+  },
+  {
+    "name": "Shark Fin Camp",
+    "coords": "P-5",
+    "type": "Fortress"
+  },
+  {
+    "name": "Skull Keep",
+    "coords": "P-9",
+    "type": "Fortress"
+  },
+  {
+    "name": "The Crow's Nest Fortress",
+    "coords": "O-17",
+    "type": "Fortress"
+  }
+]
